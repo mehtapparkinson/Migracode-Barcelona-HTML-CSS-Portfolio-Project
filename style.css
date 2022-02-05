@@ -18,7 +18,7 @@ header nav {
     letter-spacing: 2px;
 }
 
-a {
+nav a {
     margin-left: 20px;
     color: #ba4b2f;
 }
@@ -51,4 +51,6 @@ a {
 
 
    
-  
+  footer {
+      background-color: #43898b;
+  }
