@@ -49,7 +49,7 @@ nav a:hover {
     text-align: center;
     padding-top: 20%;
     margin-right: 53%;
-    
+    line-height: 80px;
 }
 
 
@@ -59,6 +59,7 @@ nav a:hover {
     padding-top: 10%;
     margin-right: 53%;
     padding-bottom: 10%;
+    
 }
 
 #about-me {
@@ -66,6 +67,7 @@ nav a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 25%;
+   
 }
 
 #about-me p{
@@ -75,6 +77,8 @@ nav a:hover {
     color: #f8f7f4;
     text-align: left;
     font-size: larger;
+    max-width: 430px;
+    line-height: 30px;
 }
 #about-me button {
     margin-left: 50%;
@@ -120,6 +124,10 @@ nav a:hover {
 
 }
 
+table td {
+    padding-right: 60px;
+    padding-left: 60px;
+}
 
 html { scroll-behavior: smooth; } 
 
@@ -138,5 +146,3 @@ html { scroll-behavior: smooth; }
       color: #f8f7f4;
       margin-left: 25px;
   }
-
-  
