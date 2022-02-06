@@ -101,12 +101,13 @@ nav a:hover {
     text-align: center;
     background-color: #efa593;
     color: #f8f7f4;
-    padding-bottom: 10%
+    padding-bottom: 10%;
+    
 
 }
 
 #My-works img {
-    max-width: 500px;
+    max-width: 300px;
     text-align: center;
 
 }
@@ -116,6 +117,10 @@ nav a:hover {
    padding-top: 5%;
    color: #2b696b   ;
 
+}
+
+#My-works  p{
+    padding-left: 20px;
 }
 
 html { scroll-behavior: smooth; } 
