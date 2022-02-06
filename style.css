@@ -18,9 +18,23 @@ header nav {
     letter-spacing: 2px;
 }
 
+
+
+body {
+    background-color: #f8f7f4;
+    box-sizing: border-box;
+    width: 100%;
+  
+}
+
 nav a {
     margin-left: 20px;
     color: #ba4b2f;
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: cadetblue;
 }
 
 
@@ -49,8 +63,77 @@ nav a {
     padding-bottom: 10%;
 }
 
+#about-me {
+    background-image: url(https://i.imgur.com/djZ3eZV.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 25%;
+}
 
-   
+#about-me p{
+    margin-left: 50%;
+    padding-top: 20%;
+  margin-right: 10%;
+    color: #f8f7f4;
+    text-align: left;
+    font-size: larger;
+}
+#about-me button {
+    margin-left: 50%;
+    font-size: 20px;
+    border-radius: 20px;
+    border: burlywood solid 3px;
+}
+#about-me a {
+    color: #ba4b2f;
+    text-decoration: none;
+}
+#about-me button:hover {
+    color:#30b0b4;
+}
+
+#about-me button:focus {
+    color: #85cfad;
+}
+
+
+#My-works {
+    text-align: center;
+    background-color: #efa593;
+    color: #f8f7f4;
+    padding-bottom: 10%
+
+}
+
+#My-works img {
+    max-width: 500px;
+    text-align: center;
+
+}
+
+#My-works h1 {
+    text-align: center;
+   padding-top: 5%;
+   color: #2b696b   ;
+
+}
+
+html { scroll-behavior: smooth; } 
+
+
+
   footer {
       background-color: #43898b;
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      color: #f8f7f4
+      ;
   }
+
+  footer a   {
+      color: #f8f7f4;
+      margin-left: 25px;
+  }
+
+  
